@@ -13,6 +13,10 @@
             background: #0c0207;
          }
 
+         #music {
+            display: none;
+         }
+
          #bynight {
             width: 100%;
             height: 100%;
@@ -333,6 +337,14 @@
       <style type="text/css" id="operaUserStyle"></style>
    </head>
    <body>
+      <div id="music">
+         <audio id="homeland">
+            <source src="HOMELAND.mp3" type="audio/mpeg" />
+         </audio>
+      </div>
+      <div id="music-controll-container">
+         <button id="music-controll">🎵</button>
+      </div>
       <div id="bynight">
          <div id="back"></div>
          <div id="moon"></div>
@@ -343,5 +355,12 @@
          <div id="sea"></div>
          <h1>Spleen</h1>
       </div>
+      <script>
+         document.querySelector("#music-controll").addEventListener("click", () => {
+            const hoomeland = document.querySelector("#homeland");
+            hoomeland.loop = true;
+            hoomeland.paused ? hoomeland.play() : hoomeland.pause();
+         });
+      </script>
    </body>
 </html>
