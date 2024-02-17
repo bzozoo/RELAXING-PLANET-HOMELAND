@@ -81,7 +81,7 @@ body {
    height: 500px;
    width: 100%;
    z-index: -10;
-   top: 15.5em;
+   top: 10.5em;
    background-position: 0px 0px;
    background-repeat: repeat-x;
    -webkit-animation: animar_city 120s linear infinite;
@@ -131,12 +131,12 @@ body {
 #nuage {
    opacity: 25%;
    width: 500px;
-   height: auto;
+   height: 20vh;
    position: absolute;
    background-position: 0px 0px;
    background-repeat: repeat-x;
    z-index: -20;
-   top: 0em;
+   top: -20vh;
    animation: nuage 80s infinite;
 }
 
@@ -152,7 +152,7 @@ body {
 #moon {
    width: 6em;
    height: 6em;
-   margin-top: 7em;
+   margin-top: 8vh;
    background: url("");
    -moz-border-radius: 50%;
    -webkit-border-radius: 50%;
@@ -211,7 +211,7 @@ body {
    height: 213px;
    width: 100%;
    z-index: -5;
-   top: 30.1em;
+   top: 25.1em;
    background-position: 0px 0px;
    background-repeat: repeat-x;
    -webkit-animation: animar_mer 59s linear infinite;
