@@ -76,58 +76,6 @@ body {
    }
 }
 
-#city {
-   background: url("./images/city.png");
-   height: 500px;
-   width: 100%;
-   z-index: -10;
-   top: 10.5em;
-   background-position: 0px 0px;
-   background-repeat: repeat-x;
-   -webkit-animation: animar_city 120s linear infinite;
-   -ms-animation: animar_city 120s linear infinite;
-   -moz-animation: animar_city 120s linear infinite;
-   position: absolute;
-}
-
-/* Animacion city */
-
-@keyframes animar_city {
-   from {
-      background-position: 0 0;
-   }
-   to {
-      background-position: 100% 0;
-   }
-}
-
-@-webkit-keyframes animar_city {
-   from {
-      background-position: 0 0;
-   }
-   to {
-      background-position: 100% 0;
-   }
-}
-
-@-ms-keyframes animar_city {
-   from {
-      background-position: 0 0;
-   }
-   to {
-      background-position: 100% 0;
-   }
-}
-
-@-moz-keyframes animar_city {
-   from {
-      background-position: 0 0;
-   }
-   to {
-      background-position: 100% 0;
-   }
-}
-
 #nuage {
    opacity: 25%;
    width: 500px;
@@ -136,7 +84,7 @@ body {
    background-position: 0px 0px;
    background-repeat: repeat-x;
    z-index: -20;
-   top: -20vh;
+   top: -28vh;
    animation: nuage 80s infinite;
 }
 
@@ -205,19 +153,68 @@ body {
    }
 }
 
+#city {
+   background: url("./images/city.png");
+   margin-top: 17vh;
+   height: 296px;
+   width: 100%;
+   z-index: -10;
+   background-position: 0px 0px;
+   background-repeat: repeat-x;
+   -webkit-animation: animar_city 120s linear infinite;
+   -ms-animation: animar_city 120s linear infinite;
+   -moz-animation: animar_city 120s linear infinite;
+}
+
+/* Animacion city */
+
+@keyframes animar_city {
+   from {
+      background-position: 0 0;
+   }
+   to {
+      background-position: 100% 0;
+   }
+}
+
+@-webkit-keyframes animar_city {
+   from {
+      background-position: 0 0;
+   }
+   to {
+      background-position: 100% 0;
+   }
+}
+
+@-ms-keyframes animar_city {
+   from {
+      background-position: 0 0;
+   }
+   to {
+      background-position: 100% 0;
+   }
+}
+
+@-moz-keyframes animar_city {
+   from {
+      background-position: 0 0;
+   }
+   to {
+      background-position: 100% 0;
+   }
+}
+
 #sea {
    background: url("./images/sea.png");
    opacity: 25%;
    height: 213px;
    width: 100%;
    z-index: -5;
-   top: 25.1em;
    background-position: 0px 0px;
    background-repeat: repeat-x;
    -webkit-animation: animar_mer 59s linear infinite;
    -ms-animation: animar_mer 59s linear infinite;
    -moz-animation: animar_mer 59s linear infinite;
-   position: absolute;
 }
 
 /* Animacion mer */
