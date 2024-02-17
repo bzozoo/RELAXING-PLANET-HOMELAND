@@ -1,0 +1,325 @@
+html {
+   font-size: 20px;
+   margin: 0;
+   background: #0c0207;
+}
+
+body {
+   margin: 0;
+   overflow: hidden;
+}
+
+#music {
+   display: none;
+}
+
+#music-controll-container {
+   top: 5;
+   left: 5;
+   position: absolute;
+}
+
+#bynight {
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+   border-radius: 16px;
+   
+}
+
+#back {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   z-index: -30;
+   top: 0;
+   background: linear-gradient(178deg, #000000, #250125, #203e4d, #64939b, #f8b589, #64939b, #c13863);
+   background-size: 100% 400%;
+   -webkit-animation: back 24s ease infinite;
+   -moz-animation: back 24s ease infinite;
+   animation: back 24s ease infinite;
+}
+
+@-webkit-keyframes back {
+   0% {
+      background-position: 49% 0%;
+   }
+   50% {
+      background-position: 52% 100%;
+   }
+   100% {
+      background-position: 49% 0%;
+   }
+}
+
+@-moz-keyframes back {
+   0% {
+      background-position: 49% 0%;
+   }
+   50% {
+      background-position: 52% 100%;
+   }
+   100% {
+      background-position: 49% 0%;
+   }
+}
+
+@keyframes back {
+   0% {
+      background-position: 49% 0%;
+   }
+   50% {
+      background-position: 52% 100%;
+   }
+   100% {
+      background-position: 49% 0%;
+   }
+}
+
+#city {
+   background: url("https://i.imgur.com/vwwgKRt.png?raw=true");
+   height: 500px;
+   width: 100%;
+   z-index: -10;
+   top: 15.5em;
+   background-position: 0px 0px;
+   background-repeat: repeat-x;
+   -webkit-animation: animar_city 120s linear infinite;
+   -ms-animation: animar_city 120s linear infinite;
+   -moz-animation: animar_city 120s linear infinite;
+   position: absolute;
+}
+
+/* Animacion city */
+
+@keyframes animar_city {
+   from {
+      background-position: 0 0;
+   }
+   to {
+      background-position: 100% 0;
+   }
+}
+
+@-webkit-keyframes animar_city {
+   from {
+      background-position: 0 0;
+   }
+   to {
+      background-position: 100% 0;
+   }
+}
+
+@-ms-keyframes animar_city {
+   from {
+      background-position: 0 0;
+   }
+   to {
+      background-position: 100% 0;
+   }
+}
+
+@-moz-keyframes animar_city {
+   from {
+      background-position: 0 0;
+   }
+   to {
+      background-position: 100% 0;
+   }
+}
+
+#nuage {
+   opacity: 25%;
+   width: 500px;
+   height: auto;
+   position: absolute;
+   background-position: 0px 0px;
+   background-repeat: repeat-x;
+   z-index: -20;
+   top: 0em;
+   animation: nuage 80s infinite;
+}
+
+@keyframes nuage {
+   from {
+      right: 1000px;
+   }
+   to {
+      right: 2500px;
+   }
+}
+
+#moon {
+   width: 6em;
+   height: 6em;
+   margin-top: 7em;
+   background: url("");
+   -moz-border-radius: 50%;
+   -webkit-border-radius: 50%;
+   border-radius: 50%;
+   -moz-box-shadow: 30px 50px 0 #f7f8e0;
+   -webkit-box-shadow: 30px 50px 0 #f7f8e0;
+   box-shadow: 30px 50px 0 #f7f8e0;
+   margin-left: 50%;
+   position: absolute;
+   z-index: -25;
+   opacity: 0%;
+   animation: moon 12s infinite alternate;
+}
+
+/* Animacion lunaire */
+
+@keyframes moon {
+   from {
+      opacity: 90%;
+   }
+   to {
+      opacity: 0%;
+   }
+}
+
+@-webkit-keyframes moon {
+   from {
+      opacity: 90%;
+   }
+   to {
+      opacity: 0%;
+   }
+}
+
+@-ms-keyframes moon {
+   from {
+      background-position: 0 0;
+   }
+   to {
+      background-position: 100% 0;
+   }
+}
+
+@-moz-keyframes moon {
+   from {
+      background-position: 0 0;
+   }
+   to {
+      background-position: 100% 0;
+   }
+}
+
+#sea {
+   background: url("https://github.com/berru-g/challenge-codepen/blob/main/marche-by-night/img/mer.png?raw=true");
+   opacity: 25%;
+   height: 213px;
+   width: 100%;
+   z-index: -5;
+   top: 30.1em;
+   background-position: 0px 0px;
+   background-repeat: repeat-x;
+   -webkit-animation: animar_mer 59s linear infinite;
+   -ms-animation: animar_mer 59s linear infinite;
+   -moz-animation: animar_mer 59s linear infinite;
+   position: absolute;
+}
+
+/* Animacion mer */
+
+@keyframes animar_mer {
+   from {
+      background-position: 0 0;
+   }
+   to {
+      background-position: 100% 0;
+   }
+}
+
+@-webkit-keyframes animar_mer {
+   from {
+      background-position: 0 0;
+   }
+   to {
+      background-position: 100% 0;
+   }
+}
+
+@-ms-keyframes animar_mer {
+   from {
+      background-position: 0 0;
+   }
+   to {
+      background-position: 100% 0;
+   }
+}
+
+@-moz-keyframes animar_mer {
+   from {
+      background-position: 0 0;
+   }
+   to {
+      background-position: 100% 0;
+   }
+}
+
+#sol {
+   height: 10em;
+   width: 100%;
+   background: -moz-linear-gradient(top, #416663 0%, #0c0207 19%);
+   background: -webkit-linear-gradient(top, #416663 0%, #0c0207 19%);
+   background: linear-gradient(to bottom, #416663 0%, #0c0207 19%);
+   margin-bottom: 0px;
+}
+
+/*#perso {
+   background: url("https://github.com/berru-g/challenge-codepen/blob/main/marche-by-night/img/perso2(1).png?raw=true");
+   height: 560px;
+   width: 507.5px;
+   margin-bottom: -0.6em;
+   margin-left: 1em;
+   z-index: 10;
+   -webkit-animation: sprite-animation 2.2s steps(16, end) infinite;
+   -moz-animation: sprite-animation 2.2s steps(16, end) infinite;
+   -ms-animation: sprite-animation 2.2s steps(16, end) infinite;
+   animation: sprite-animation 2.2s steps(16, end) infinite;
+}*/
+
+@-webkit-keyframes sprite-animation {
+   from {
+      background-position: 0 0;
+   }
+   to {
+      background-position: -8120px 0;
+   }
+}
+
+@-ms-keyframes sprite-animation {
+   from {
+      background-position: 0 0;
+   }
+   to {
+      background-position: -8120px 0;
+   }
+}
+
+@-moz-keyframes sprite-animation {
+   from {
+      background-position: 0 0;
+   }
+   to {
+      background-position: -8120px 0;
+   }
+}
+
+@keyframes sprite-animation {
+   from {
+      background-position: 0 0;
+   }
+   to {
+      background-position: -8120px 0;
+   }
+}
+
+h1 {
+   color: white;
+   font-size: 200em;
+   margin-top: 2em;
+   margin-left: 8em;
+   z-index: 40;
+}
