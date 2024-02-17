@@ -1,12 +1,14 @@
 html {
    font-size: 20px;
    margin: 0;
+   overflow: hidden;
    background: #0c0207;
 }
 
 body {
    margin: 0;
    overflow: hidden;
+   position: relative; 
 }
 
 #music {
