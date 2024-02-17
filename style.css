@@ -77,7 +77,7 @@ body {
 }
 
 #city {
-   background: url("https://i.imgur.com/vwwgKRt.png?raw=true");
+   background: url("./images/city.png");
    height: 500px;
    width: 100%;
    z-index: -10;
@@ -206,7 +206,7 @@ body {
 }
 
 #sea {
-   background: url("https://github.com/berru-g/challenge-codepen/blob/main/marche-by-night/img/mer.png?raw=true");
+   background: url("./images/sea.png");
    opacity: 25%;
    height: 213px;
    width: 100%;
