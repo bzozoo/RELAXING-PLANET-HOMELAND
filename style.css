@@ -313,11 +313,3 @@ body {
       background-position: -8120px 0;
    }
 }
-
-h1 {
-   color: white;
-   font-size: 200em;
-   margin-top: 2em;
-   margin-left: 8em;
-   z-index: 40;
-}
