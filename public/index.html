@@ -1,0 +1,45 @@
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <title>RELAXING WORLD - HOMELAND</title>
+      <meta property="og:title" content="RELAXING WORLD - HOMELAND" />
+      <meta property="og:image" content="https://bzozoo.github.io/RELAXING-PLANET-HOMELAND/images/screenshot.png" />
+      <meta property="og:description" content="Just a relaxing world" />
+   
+      <link rel="stylesheet" href="./style.css">
+
+   </head>
+   <body>
+      <div id="music">
+         <audio id="homeland">
+            <source src="Homeland.mp3" type="audio/mpeg" />
+         </audio>
+      </div>
+      <div id="music-controll-container">
+         <button id="music-controll">🎵</button>
+      </div>
+      <div id="bynight">
+         <div id="back"></div>
+         <div id="moon"></div>
+         <div id="core">
+            <div id="city"></div>
+            <div id="sea"></div>
+         </div>
+         
+         <div id="nuage">
+            <img class="nuage" src="./images/clouds.png" />
+         </div>
+         
+      </div>
+      <script>
+         document.querySelector("#music-controll").addEventListener("click", () => {
+            const hoomeland = document.querySelector("#homeland");
+            hoomeland.loop = true;
+            hoomeland.paused ? hoomeland.play() : hoomeland.pause();
+         });
+      </script>
+   </body>
+</html>
