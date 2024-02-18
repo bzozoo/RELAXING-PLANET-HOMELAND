@@ -206,6 +206,7 @@ body {
 
 #sea {
    background: url("./images/sea.png");
+   margin-top: -1px;
    opacity: 25%;
    height: 213px;
    width: 100%;
